@@ -21,7 +21,7 @@ export const CheckButton = ({
   return (
     <div
       data-testid="grid-gallery-item_check-button"
-      title="Select"
+      title="Save/Unsave"
       style={styles.checkButton({ isVisible })}
       onClick={onClick}
       onMouseOver={handleMouseOver}
